@@ -201,6 +201,12 @@ header {
 
 /*instagram*/
 /*updates*/
+input::placeholder{
+    color: #272727;
+    font-family: Lato;
+    padding-left: 13px;
+    font-size: 16px;
+}
 .updates {
     padding-top: 100px;
     background-color: #FFF;
@@ -293,12 +299,26 @@ header {
 /*footer*/
 /*bonus*/
 .bonus{
-
+    background-color: whitesmoke;
+    padding-bottom: 60px;
 }
 
 .bonus-title{
-
+    padding-top: 100px;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
 }
-.bonus-pic{
+.quote{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.one{
+    width: 300px;
 }
