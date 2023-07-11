@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0px 0px;
 }
+
 /*common styles*/
 .btn-primary {
     border-radius: 8px;
@@ -16,18 +17,21 @@
 /*common styles*/
 
 /*header sections*/
-header{
+header {
     background: rgba(229, 84, 115, 0.10);
     background-position: bottom right;
 }
+
 .section-content {
     display: flex;
     justify-content: space-between;
 }
-.content1{
+
+.content1 {
     padding: 150px 200px 120px 200px;
     text-align: left;
 }
+
 .description-title {
     color: #272727;
     font-family: Lato;
@@ -52,3 +56,135 @@ header{
 }
 
 /*header sections*/
+
+/*main*/
+/*featured-flowers*/
+
+/*featured-flowers*/
+/*hot-deal*/
+.hot-deal {
+    background: rgba(229, 84, 115, 0.10);
+    background-position: bottom right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hd-content1 {
+    text-align: center;
+    padding: 300px 200px 200px 200px;
+
+}
+
+.hd-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hd-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hd-image {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    padding: 150px 250px 100px 200px;
+}
+
+/*hot-deal*/
+/*instagram*/
+.instagram {
+    background-color: #FFF;
+}
+
+.insta-text {
+    text-align: center;
+    padding-top: 150px;
+    gap: 25px;
+}
+
+.insta-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.insta-all-pics {
+    display: flex;
+    gap: 25px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+/*instagram*/
+/*updates*/
+.updates {
+    padding-top: 100px;
+    background-color: #FFF;
+    padding-bottom: 100px;
+}
+
+.up-banner {
+    text-align: center;
+    background-image: url("Flower\ Asset/Rectangle 9.png");
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+
+.up-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.up-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.contact input[type="email"] {
+    padding-left: 200px;
+    padding-right: 600px;
+    padding-bottom: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0;
+    text-align: left;
+    width: 100px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+/*updates*/
+
+/*main*/
