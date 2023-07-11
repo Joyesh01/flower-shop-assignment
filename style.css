@@ -291,3 +291,14 @@ header {
 }
 
 /*footer*/
+/*bonus*/
+.bonus{
+
+}
+
+.bonus-title{
+
+}
+.bonus-pic{
+    display: flex;
+}
